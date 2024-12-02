@@ -10,6 +10,10 @@
 - **IDE**: STS - Spring Tools Suite
 - **Lombok**: Para utilizar Lombok no STS baixe o Lombok e adicione o STS. Link: https://projectlombok.org/download
 
+?> Exemplo de texto informativo
+
+!> Exemplo de texto de alarme
+
 ## Dependências do Projeto
 O projeto utiliza as seguintes dependências:
 

@@ -1,0 +1,59 @@
+:root {
+    /* More styles: https://jhildenbiddle.github.io/docsify-themeable/#/customization */
+    
+    /* Theme */
+    --theme-hue							: 200;
+    --theme-color						: #76b4ff;
+
+    /* General Styles */
+    --base-background-color				: #283339;
+    --base-color           				: #d1faff;
+    --base-font-family     				: Tahoma, Helvetica, sans-serif;
+    --base-font-size       				: 16px;
+    --base-font-weight     				: normal;
+    --content-max-width					: 1000px;
+    --heading-h1-color					: var(--theme-color);
+    --heading-h2-color					: var(--theme-color);
+    --table-head-border-width			: 1px;
+    --table-cell-border-width			: 1px;
+    --selection-color      				: #76b4ff62;
+    --link-color                        : #76b4ff;
+    --link-color--hover                 : #558fd6;
+    --link-text-decoration              : underline;
+
+    /* Navbar */
+    --navbar-root-border-color			: var(--theme-color);
+    --navbar-root-color					: #d1faff;
+    --navbar-root-color--hover			: var(--background);
+    --navbar-root-background--hover		: var(--theme-color);
+    --navbar-root-border-width			: 1px;
+    --navbar-root-padding				: 10px;
+    --navbar-root-margin				: 0 5px;
+
+    /* Horizontal Rule */
+    /* --hr-border            			: 1px solid var(--mono-tint2); */
+
+    /* Sidebar Styles */
+    /* --sidebar-background				: var(--base-background-color); */
+
+    /* Code Styles */
+    /* --copycode-background			: #808080; */
+    /*--copycode-color     				: #fff; */
+    --code-font-family                  : Inconsolata, Consolas, Courier, monospace;
+    --code-font-size                    : calc(var(--font-size-m) * 0.95);
+    --code-font-weight                  : normal;
+    --code-tab-size                     : 4;
+
+    --code-block-border-radius          : var(--border-radius-m);
+    --code-block-line-height            : var(--base-line-height);
+    --code-block-margin                 : 1em 0;
+    --code-block-padding                : 1.75em 1.5em 1.5em 1.5em;
+
+    --code-inline-background            : var(--code-theme-background);
+    --code-inline-border-radius         : var(--border-radius-s);
+    --code-inline-color                 : var(--code-theme-text);
+    --code-inline-margin                : 0 0.15em;
+    --code-inline-padding               : 0.125em 0.4em;
+
+    --code-theme-background             : var(--mono-tint3);
+}

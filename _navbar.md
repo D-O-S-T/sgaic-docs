@@ -1,4 +1,5 @@
 <!-- _navbar.md -->
-
+-   [Github](https://github.com/D-O-S-T/sgaic)
+-   [Prototype](https://github.com/D-O-S-T/GerenciamentoAcademico)
 -   [Releases](https://github.com/D-O-S-T/sgaic/releases)
--   [Report a bug](https://github.com/D-O-S-T/sgaic/issues)
+-   [Issues](https://github.com/D-O-S-T/sgaic/issues)

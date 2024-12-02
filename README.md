@@ -42,3 +42,5 @@ Você poderá visualizar seu site no navegador em http://localhost:3000.
 
 ---
 Para mais exemplos de uso do `docsify-cli`, visite a [wiki](https://docsify.js.org/) do Docsify.
+
+Mais temas pro Docsify: https://github.com/jhildenbiddle/docsify-themeable
