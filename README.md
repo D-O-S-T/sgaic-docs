@@ -23,8 +23,6 @@ Primeiro, é necessário ter a ferramenta (Docsify) instalada. É recomendado in
 npm i docsify-cli -g
 ```
 
-Toda atualização dessa documentação deve ser feita na branch `docs`, que utiliza o subdiretório `docs/` do projeto. Uma vez que a documentação esteja em fase de release, pode ser realizado o merge com a branch `main`.
-
 - `index.html`: arquivo base do site
 - `README.md`: arquivo markdown renderizado como a página inicial
 - `.nojekyll`: evita que o GitHub Pages ignore arquivos que começam com um sublinhado `_`
