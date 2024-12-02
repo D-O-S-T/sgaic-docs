@@ -1,7 +1,5 @@
 - [Home](/)
-- [Index](README.md#index)
 ---
-- [Objetivos](#)
 - [Objetivos](#)  
 - [Requisitos](#)  
 - [Deploy](#)

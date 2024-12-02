@@ -11,8 +11,6 @@ SGA-IC está em fase de **prototipagem** e é desenvolvido por alunos universit�
 
 Se você deseja relatar um bug ou sugerir uma funcionalidade, utilize a página de [Issues](https://github.com/D-O-S-T/sgaic/issues) do próprio repositório. Tentamos manter o SGA-IC atualizado e em constante manutenção.
 
-Scribble is built and maintained by [@jujuadams](https://twitter.com/jujuadams) who has a long history of fiddling with text engines. Juju's worked on a lot of [commercial GameMaker games](http://www.jujuadams.com/); Scribble is the product of practical experience dealing with console porting and localisation.
-
 ## License
 SGA-IC está licenciado sob a [Licença MIT](https://github.com/D-O-S-T/sgaic/blob/main/LICENSE.txt).
 
