@@ -14,6 +14,11 @@
 
 !> Exemplo de texto de alarme
 
+## Instalação dos Plugins
+- PostgreSQL [TO-DO: como baixar]
+- Lombok  [TO-DO: como baixar]
+- Postman  [TO-DO: como baixar]
+
 ## Dependências do Projeto
 O projeto utiliza as seguintes dependências:
 

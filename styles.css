@@ -3,7 +3,8 @@
     
     /* Theme */
     --theme-hue							: 200;
-    --theme-color						: #76b4ff;
+    --theme-color						: #20d0dd;
+    --theme-link                        : #76ffd1;
 
     /* General Styles */
     --base-background-color				: #283339;
@@ -17,7 +18,7 @@
     --table-head-border-width			: 1px;
     --table-cell-border-width			: 1px;
     --selection-color      				: #76b4ff62;
-    --link-color                        : #76b4ff;
+    --link-color                        : var(--theme-link);
     --link-color--hover                 : #558fd6;
     --link-text-decoration              : underline;
 
@@ -39,7 +40,7 @@
     /* Code Styles */
     /* --copycode-background			: #808080; */
     /*--copycode-color     				: #fff; */
-    --code-font-family                  : Inconsolata, Consolas, Courier, monospace;
+    /* --code-font-family                  : Inconsolata, Consolas, Courier, monospace;
     --code-font-size                    : calc(var(--font-size-m) * 0.95);
     --code-font-weight                  : normal;
     --code-tab-size                     : 4;
@@ -53,7 +54,7 @@
     --code-inline-border-radius         : var(--border-radius-s);
     --code-inline-color                 : var(--code-theme-text);
     --code-inline-margin                : 0 0.15em;
-    --code-inline-padding               : 0.125em 0.4em;
+    --code-inline-padding               : 0.125em 0.4em; */
 
     --code-theme-background             : var(--mono-tint3);
 }
