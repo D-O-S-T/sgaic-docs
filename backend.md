@@ -1,25 +1,25 @@
-# Back End
-- **Framework**: 3.3.4 (Spring Boot)
-- **Versão**: 4.0.0 (Maven)
+# Back-End
+
+- **Framework**: Spring Boot 3.3.4
+- **Versão**: Maven 4.0.0
 - **Linguagem**: Java 21
-- Lombok : https://projectlombok.org/download
-- PostgreSQL 16.4
-- Dbeaver para visualização do banco
+- **Biblioteca** : Lombok [Download aqui](https://projectlombok.org/download)
+- **Banco de Dados**: PostgreSQL 16.4
+- **Ferramenta de Visualização**: DBeaver
 
-## IDE Recomendada
+# IDE Recomendada
+
 - **IDE**: STS - Spring Tools Suite
-- **Lombok**: Para utilizar Lombok no STS baixe o Lombok e adicione o STS. Link: https://projectlombok.org/download
+- **Configuração do Lombok**:
+    - Faça o download do arquivo Lombok: [Aqui](https://projectlombok.org/download) 
+    - Associe o Lombok ao STS.
 
-?> Exemplo de texto informativo
+?> Dica: Certifique-se de que sua versão do STS suporta Java 21.
 
-!> Exemplo de texto de alarme
+!> Alerta: Configurar adequadamente o Lombok é essencial para evitar erros na compilação.
 
-## Instalação dos Plugins
-- PostgreSQL [TO-DO: como baixar]
-- Lombok  [TO-DO: como baixar]
-- Postman  [TO-DO: como baixar]
+# Dependências do Projeto
 
-## Dependências do Projeto
 O projeto utiliza as seguintes dependências:
 
 ```xml
@@ -57,3 +57,22 @@ O projeto utiliza as seguintes dependências:
         <scope>test</scope>
     </dependency>
 </dependencies>
+```
+
+# Pré-requisitos
+
+Certifique-se de ter as seguintes ferramentas instaladas:
+   
+ - **STS(Spring Tool Suite)**
+
+ - **PostgreSQL com uma base de dados configurada.**
+
+ - **Lombok, integrado ao STS.**
+
+Além disso, tenha:
+
+- O código-fonte do projeto localmente.
+- O arquivo `application.yml` ou `application.properties` configurado para conexão com o PostgreSQL.
+
+# Guia de Configuração do Projeto
+

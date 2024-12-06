@@ -14,21 +14,6 @@ Se você deseja relatar um bug ou sugerir uma funcionalidade, utilize a página 
 ## License
 SGA-IC está licenciado sob a [Licença MIT](https://github.com/D-O-S-T/sgaic/blob/main/LICENSE.txt).
 
-## Documentação (Setup)
-Para essa documentação, usamos o [Docsify](https://github.com/docsifyjs/docsify).
-
-Primeiro, é necessário ter a ferramenta (Docsify) instalada. É recomendado instalar o `docsify-cli` globalmente, pois ele ajuda a inicializar e visualizar o site localmente.
-
-```bash
-npm i docsify-cli -g
-```
-
-- `index.html`: arquivo base do site
-- `README.md`: arquivo markdown renderizado como a página inicial
-- `.nojekyll`: evita que o GitHub Pages ignore arquivos que começam com um sublinhado `_`
-
-Você pode facilmente atualizar a documentação em ./docs/README.md e, claro, pode adicionar mais páginas.
-
 ## Preview do site
 Abra a pasta do projeto SGA-IC no seu computador, verifique se você está na branch `docs` e inicie o servidor local executando o seguinte comando:
 
