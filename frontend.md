@@ -28,83 +28,68 @@
 
 # Como Iniciar e Rodar um Projeto Angular
 
-Ao trabalhar com o *Angular*, o primeiro passo para explorar a criação de páginas e funcionalidades é aprender como rodar o projeto localmente. O Angular oferece ferramentas poderosas para desenvolvimento, incluindo seu próprio servidor de desenvolvimento. Aqui está um guia introdutório para começar:
+Ao trabalhar com o *Angular*, o primeiro passo para explorar a criação de páginas e funcionalidades é aprender como rodar o projeto localmente. O Angular oferece ferramentas poderosas para desenvolvimento, incluindo seu próprio servidor de desenvolvimento.
 
 # Pré-requisitos
 
 Antes de tudo, certifique-se de ter o *Node.js* instalado no seu computador. Ele é necessário para gerenciar pacotes e executar projetos Angular. Você pode verificar se ele está instalado executando o comando:
 
-bash
+```bash
 node -v
 npm -v
+```
 
-
-Se ainda não estiver instalado, faça o download no site oficial do Node.js: [https://nodejs.org](https://nodejs.org).
+Se ainda não estiver instalado, faça o download no site oficial do [Node.js](https://nodejs.org).
 
 Além disso, é preciso instalar o *Angular CLI* (Command Line Interface), a ferramenta que facilita a criação e gerenciamento de projetos Angular. Para isso, execute:
 
-bash
+```bash
 npm install -g @angular/cli
-
+```
 
 Após a instalação, confirme a versão instalada:
 
-bash
+```bash
 ng version
-
-
-# Iniciando um Novo Projeto Angular
-
-Com o Angular CLI configurado, você pode criar um novo projeto executando:
-
-bash
-ng new nome-do-projeto
-
-
-- **Durante a criação**, será solicitado que você escolha configurações como suporte ao TypeScript e inclusão de ferramentas de testes. Use as opções padrão ou personalize conforme necessário.
-- **Navegue até a pasta do projeto**:
-
-bash
-cd nome-do-projeto
-
+```
 
 # Rodando o Servidor de Desenvolvimento
 
 Para visualizar e testar o projeto em um navegador, use o servidor de desenvolvimento integrado. Basta executar:
 
-bash
+```bash
 ng serve --open
+```
 
+?> O comando `--open` abre automaticamente o navegador padrão no endereço http://localhost:4200.
 
-- O comando --open abre automaticamente o navegador padrão no endereço http://localhost:4200.
-- Caso prefira rodar o projeto em uma porta específica, você pode usar:
-
-bash
+Caso prefira rodar o projeto em uma porta específica, você pode usar:
+```bash
 ng serve --port 4300
-
+```
 
 # Estrutura do Projeto Angular
 
 Ao abrir o projeto no seu editor de código, como o *Visual Studio Code*, você verá uma estrutura de pastas organizada:
 
-- **src/app**: Contém os componentes, serviços e arquivos principais do seu aplicativo.
-- **src/assets**: Armazena recursos como imagens e arquivos estáticos.
-- **src/environments**: Configurações específicas para diferentes ambientes (desenvolvimento ou produção).
+- `src/app`: Contém os componentes, serviços e arquivos principais do seu aplicativo.
+- `src/assets`: Armazena recursos como imagens e arquivos estáticos.
+- `src/environments`: Configurações específicas para diferentes ambientes (desenvolvimento ou produção).
 
 # Dicas para Começar
 
 1. **Criação de Componentes**: Use o Angular CLI para criar novos componentes. Por exemplo:
 
-   bash
-   ng generate component nome-do-componente
-   
+```bash
+ng generate component nome-do-componente
+```
 
    Isso cria automaticamente os arquivos HTML, CSS e TypeScript necessários.
 
 2. **Atualização de Dependências**: Sempre mantenha as dependências do projeto atualizadas para garantir compatibilidade e acesso aos últimos recursos. Execute:
 
-   bash
-   npm update
-   
+```bash
+npm update
+```
 
 3. **Hot Reload**: Enquanto o servidor de desenvolvimento está ativo, qualquer alteração no código é automaticamente refletida no navegador, economizando tempo durante o desenvolvimento.

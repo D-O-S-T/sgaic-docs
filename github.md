@@ -1,4 +1,4 @@
-# Boas práticas para contribuir com o repositório
+# Github
 
 Aqui estão algumas diretrizes para garantirmos um trabalho organizado e eficiente no nosso repositório.
 

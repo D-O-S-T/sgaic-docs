@@ -5,8 +5,6 @@
 - [Requisitos](requisitos.md)  
 - [Deploy](deploy.md)
 ---
-- [Documentação](documentacao.md)
----
 - [Front End](frontend.md)
 ---
 - [Back End](backend.md)
@@ -14,3 +12,4 @@
 - [Banco de Dados](db.md)
 ---
 - [Github](github.md)
+- [Documentação](documentacao.md)
