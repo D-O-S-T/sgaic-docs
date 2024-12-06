@@ -3,7 +3,7 @@
 ---
 - [Objetivos](objetivos.md)  
 - [Requisitos](requisitos.md)  
-- [Deploy](#)
+- [Deploy](deploy.md)
 ---
 - [Documentação](documentacao.md)
 ---
