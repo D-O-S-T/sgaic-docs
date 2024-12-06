@@ -2,7 +2,7 @@
 - [Home](/)
 ---
 - [Objetivos](objetivos.md)  
-- [Requisitos](#)  
+- [Requisitos](requisitos.md)  
 - [Deploy](#)
 ---
 - [Documentação](documentacao.md)
