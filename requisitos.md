@@ -2,6 +2,8 @@
 
 O **Sistema de Gestão de Iniciação Científica** foi desenvolvido para gerenciar e acompanhar projetos de iniciação científica, abrangendo funcionalidades essenciais para cadastro, organização e monitoramento de usuários, projetos e atividades.
 
+![Diagrama de Requisitos](assets/requisitos.png)
+
 # Gestão de Usuários
 - **Cadastro de Usuários:**  
   - Inclusão de alunos, professores (orientadores) e coordenadores.  

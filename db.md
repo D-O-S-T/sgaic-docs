@@ -4,4 +4,4 @@ A seguir, apresentamos o diagrama de entidade-relacionamento (DER) do banco de d
 
 Este diagrama serve como referência para a compreensão da arquitetura dos dados e facilita tanto o desenvolvimento quanto a manutenção do sistema.
 
-![Diagrama do Banco de Dados](assets\diagrama.jpg)
+![Diagrama do Banco de Dados](assets/diagrama.jpg)

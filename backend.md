@@ -7,7 +7,7 @@
 - **Banco de Dados**: PostgreSQL 16.4
 - **Ferramenta de Visualização**: DBeaver
 
-# IDE Recomendada
+## IDE Recomendada
 
 - **IDE**: STS - Spring Tools Suite
 - **Configuração do Lombok**:
@@ -18,7 +18,7 @@
 
 !> Alerta: Configurar adequadamente o Lombok é essencial para evitar erros na compilação.
 
-# Dependências do Projeto
+## Dependências do Projeto
 
 O projeto utiliza as seguintes dependências:
 
@@ -59,7 +59,7 @@ O projeto utiliza as seguintes dependências:
 </dependencies>
 ```
 
-# Pré-requisitos
+## Pré-requisitos
 
 Certifique-se de ter as seguintes ferramentas instaladas:
    
@@ -74,7 +74,7 @@ Além disso, tenha:
 - O código-fonte do projeto localmente.
 - O arquivo `application.yml` ou `application.properties` configurado para conexão com o PostgreSQL.
 
-# Guia de Configuração do Projeto
+## Guia de Configuração do Projeto
 
 1. **STS (Spring Tool Suite)**  
    - **Download e Instalação:**  
@@ -125,5 +125,6 @@ Além disso, tenha:
          show-sql: true
      ```
 
+## Endpoints
 
-
+![Endpoints](assets/endpoints.png)

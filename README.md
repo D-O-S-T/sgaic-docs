@@ -13,17 +13,3 @@ Se você deseja relatar um bug ou sugerir uma funcionalidade, utilize a página 
 
 ## License
 SGA-IC está licenciado sob a [Licença MIT](https://github.com/D-O-S-T/sgaic/blob/main/LICENSE.txt).
-
-## Preview do site
-Abra a pasta do projeto SGA-IC no seu computador, verifique se você está na branch `docs` e inicie o servidor local executando o seguinte comando:
-
-```bash
-docsify serve docs
-```
-
-Você poderá visualizar seu site no navegador em http://localhost:3000.
-
----
-Para mais exemplos de uso do `docsify-cli`, visite a [wiki](https://docsify.js.org/) do Docsify.
-
-Mais temas pro Docsify: https://github.com/jhildenbiddle/docsify-themeable
