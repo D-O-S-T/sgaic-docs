@@ -1,7 +1,7 @@
 <!-- _sidebar.md -->
 - [Home](/)
 ---
-- [Objetivos](#)  
+- [Objetivos](objetivos.md)  
 - [Requisitos](#)  
 - [Deploy](#)
 ---
