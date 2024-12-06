@@ -3,7 +3,7 @@
 - **Framework**: Spring Boot 3.3.4
 - **Versão**: Maven 4.0.0
 - **Linguagem**: Java 21
-- **Biblioteca** : Lombok [Download aqui](https://projectlombok.org/download)
+- **Biblioteca** : Lombok 
 - **Banco de Dados**: PostgreSQL 16.4
 - **Ferramenta de Visualização**: DBeaver
 
@@ -75,4 +75,55 @@ Além disso, tenha:
 - O arquivo `application.yml` ou `application.properties` configurado para conexão com o PostgreSQL.
 
 # Guia de Configuração do Projeto
+
+1. **STS (Spring Tool Suite)**  
+   - **Download e Instalação:**  
+     - Acesse o site oficial do [Spring Tool Suite](https://spring.io/tools).  
+     - Faça o download da versão compatível com o seu sistema operacional.  
+     - Instale a IDE no seu computador.  
+   - **Teste:**  
+     - Abra o STS e verifique se a interface inicializa corretamente.
+
+2. **PostgreSQL com uma base de dados configurada**  
+   - **Código para Criar a Base de Dados no PostgreSQL:**  
+     Acesse o PostgreSQL (via terminal, pgAdmin ou DBeaver) e execute:  
+     ```sql
+     CREATE DATABASE nome_da_sua_base;
+     CREATE USER seu_usuario WITH PASSWORD 'sua_senha';
+     GRANT ALL PRIVILEGES ON DATABASE nome_da_sua_base TO seu_usuario;
+     ```
+   - Teste a conexão usando o cliente DBeaver, pgAdmin ou outro método de acesso ao banco.
+
+3. **Lombok integrado ao STS**  
+   - **Passos para Configurar:**  
+     - Baixe o Lombok: [Download](https://projectlombok.org/download).  
+     - Localize o arquivo `lombok.jar` baixado.  
+     - Execute-o com o comando (no terminal ou diretamente no explorador de arquivos):  
+       ```bash
+       java -jar lombok.jar
+       ```
+     - Associe o Lombok ao STS na interface de instalação que será aberta.
+
+4. **O código-fonte do projeto localmente**  
+   - Certifique-se de clonar o repositório do projeto ou copiar os arquivos para o seu computador.  
+     ```bash
+     git clone https://github.com/seu-repositorio/projeto.git
+     ```
+   - Abra o projeto no STS como descrito no guia.
+
+5. **Arquivo `application.yml` ou `application.properties` configurado**  
+   - Exemplo de configuração (`application.yml`):  
+     ```yaml
+     spring:
+       datasource:
+         url: jdbc:postgresql://localhost:5432/nome_da_sua_base
+         username: seu_usuario
+         password: sua_senha
+       jpa:
+         hibernate:
+           ddl-auto: update
+         show-sql: true
+     ```
+
+
 
