@@ -1,18 +1,7 @@
 # Banco de Dados
-- **SGBD**: 16.4 - PostgreSQL
 
-<!-- tabs:start -->
+A seguir, apresentamos o diagrama de entidade-relacionamento (DER) do banco de dados, que foi projetado para atender às necessidades do sistema. Ele descreve as tabelas, seus atributos e os relacionamentos entre elas.
 
-#### **English**
+Este diagrama serve como referência para a compreensão da arquitetura dos dados e facilita tanto o desenvolvimento quanto a manutenção do sistema.
 
-Hello!
-
-#### **French**
-
-Bonjour!
-
-#### **Italian**
-
-Ciao!
-
-<!-- tabs:end -->
+![Diagrama do Banco de Dados](assets\diagrama.jpg)
